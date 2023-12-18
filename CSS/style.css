@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#todo-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 60%;
+}
+
+#todo-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#todo-list {
+    padding: 20px;
+}
+
+#add-contact {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#add-contact .add-contact-name {
+    width: 30%
+}
+
+#add-contact .add-contact-description {
+    width: 45%
+}
+
+#add-contact .add-contact-date {
+    width: 20%
+}
+
+
+#add-btn {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact {
+    margin: 10px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.contact-description {
+    width: 200px;
+}
+
+.contact .to-contact {
+    color: red !important;
+}
+
+.contact .awaiting-reply {
+    color: orange !important;
+}
+
+.contact .interested {
+    color: lime !important;
+}
+
+.contact .awaiting-reply {
+    color: orange !important;
+}
+
+.contact .to-contact {
+    color: red !important;
+}
+
+.delete-btn {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
